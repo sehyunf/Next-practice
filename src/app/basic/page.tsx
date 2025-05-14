@@ -6,7 +6,7 @@ export default function basicpage() {
 
   return (
     <div>
-      <p>hello app routing</p>
+      <p className="font-dahyun underline font-thin ">hello app routing 가나다라마</p>
     </div>
   );
 }

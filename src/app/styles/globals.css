@@ -1,2 +1,22 @@
 @import "tailwindcss";
 
+/* 글로벌 스타일 */
+
+@theme {
+  --font-pretendard : 'Pretendard', sans-serif;
+  --font-dahyun : 'Dahyun', sans-serif;
+  --color-primary : #305CDE;
+  --color-sub1 : #00FF00;
+
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0% {}
+    100% {
+      transform : rotate(30deg);
+    }
+    50% {
+      transform : rotate(-30deg);
+    }
+  }
+}
+

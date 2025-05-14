@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./styles/globals.css"
+import { dahyun, pretendard } from "./styles/fonts";
 
 export const metadata: Metadata = {
   title: "Next project",
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${pretendard.variable} ${dahyun.variable}`}>
       <body>
         {children}
       </body>
